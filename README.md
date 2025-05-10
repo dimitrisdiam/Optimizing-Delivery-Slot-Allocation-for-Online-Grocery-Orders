@@ -44,19 +44,24 @@ grocery-delivery-analytics/
 
 ---
 
-## 🔧 Step 2: Planned Next Steps
+## 📊 Step 2: Exploratory Data Analysis (EDA)
 
-- [ ] Perform **exploratory data analysis** (EDA)
-- [ ] Create **SQL queries** for business questions
-- [ ] Visualize trends (delivery times, customer behavior, etc.)
-- [ ] Build a basic **predictive model** (e.g., peak order times or churn)
-- [ ] Prepare for **dashboarding** (Power BI / Streamlit / Plotly Dash)
+- ✔️ Performed basic insights and distribution analysis
+- ✔️ Identified key trends in customer loyalty, product popularity, and warehouse efficiency
+- ✔️ Visualized delivery patterns and order volumes over time
 
+👉 Code: [`notebooks/exploratory_analysis.ipynb`](notebooks/exploratory_analysis.ipynb)
+
+### Key Insights Visualized
+- Loyalty score distribution and city breakdown
+- Order frequency trends and basket value distribution
+- Top ordered products
+- Average warehouse packing time
 ---
 
 ## 🛠️ Technologies Used
 
-- Python (pandas, numpy)
+- Python (pandas, numpy, seaborn, matplotlib)
 - Jupyter Notebooks
 - Git & GitHub
 - [ ] SQL (planned)
